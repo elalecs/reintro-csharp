@@ -9,3 +9,7 @@ En este caso hablamos de *CSharp* y el objetivo es hablar sobre el lenguaje, no 
 
 ##Cambios
 Conforme avance en los capítulos y en los futuros tutoriales se irá actualizando este tutorial.
+
+
+##Tutorial
+[Empezar a leer el tutorial](https://github.com/elalecs/reintro-csharp/blob/master/reintro-csharp.md)
