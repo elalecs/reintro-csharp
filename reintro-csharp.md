@@ -333,5 +333,5 @@ Cuando una aplicación se ejecuta cada cierto tiempo o cada ciertos eventos el *
 <a name="toc-info"></a>
 ## Información de Origen del Documento
 * Autor: Alex Galindo ([elalecs](https://twitter.com/elalecs))
-* Última Actualización: 22 de Julio de 2014
+* Última Actualización: 28 de Julio de 2014
 * Derechos Reservados: Alex Galindo bajo la [Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.](http://creativecommons.org/licenses/by-nc-sa/4.0/)
