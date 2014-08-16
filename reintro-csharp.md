@@ -184,6 +184,30 @@ B += 55; // B no tiene 310, sino 54
 
 <a name="toc-flotantes"></a>
 ##Números Flotantes
+En CSharp además de literales numéricas de enteros también existen con punto flotante, dependiendo su longitud y/o su precisión se pueden almacenar en 3 tipos de datos.
+
+Literal | Alias | Clase | Bits | Significando (Mantisa) | Exponente
+----|----|----|----|----|----
+f | float | System.Single | 32 | 7 digitos | -45 a 38
+d | double | System.Double | 64 | -15 a 16 dígitos | -324 a 308
+m | decimal | System.Decimal | 128 | -28 a 29 digitos | 28
+
+Desde la literal se debe especificar el tipo de dato que se está utilizando, poniendo al final una `f`, `d` o `m`. Por default toda literal con punto flotante se considera `double`.
+
+```c#
+float numFlotante = 1.234f;
+double numDoble = 123.456;
+decimal numDecimal = 12345.6789m;
+```
+
+También se pueden especificar las literales con notación científica. Antes de poner el letra del tipo de dato se pone un caracter `e` y luego el exponente. 
+
+```c#
+float numFlotante = 1.234e-10f;
+double numDoble = 123.456e4d;
+decimal numDecimal = 12345.6789e2m;
+```
+
 
 
 <a name="toc-operadores"></a>
